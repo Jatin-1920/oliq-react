@@ -1,0 +1,344 @@
+@media  (max-width:95rem) {
+
+    .Header-main {
+        flex-direction: column-reverse;
+    }
+
+    .order {
+        width: 40%;
+    }
+
+    .oil-nav-section {
+        text-align: center;
+    }
+
+    .oil-nav-col {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .process-details>h1 {
+        padding-block: 4.8rem;
+    }
+}
+
+@media  (max-width:75.8rem) and (min-width:50rem) {
+
+    .Header-main {
+        text-align: center;
+    }
+
+    .proof-logo {
+        justify-content: center;
+    }
+
+    .order {
+        width: 50%;
+    }
+
+    .About-smry {
+        padding-inline: 1.6rem;
+        padding-block: 3.2rem;
+    }
+
+    .smry-col {
+        width: 100%;
+    }
+
+
+    .product {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+
+    .process {
+        padding: 4.8rem;
+    }
+
+    .process-details>img {
+        max-height: 40rem;
+    }
+
+    .process-details>h1 {
+        padding-block: 3.2rem;
+    }
+
+    .art-col {
+        padding-block: 1rem;
+    }
+
+    .art-col>.p {
+        padding-bottom: 1rem;
+    }
+
+    .dish-section {
+        height: 100%;
+    }
+
+    .dish-img>img {
+        height: 100%;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        padding: 4.8rem 2rem;
+        text-align: center;
+    }
+
+    .footer-nav>* {
+        width: 100%;
+    }
+
+    .left-footer {
+        gap: 3.2rem;
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin-bottom: 3.2rem;
+    }
+
+    .mid-footer {
+        margin-bottom: 3.2rem;
+        padding-right: 0rem;
+    }
+#form{
+    width: 100%;
+}
+    .form {
+        width: 60%;
+        flex-direction: column;
+        gap: 1rem;
+        position: static;
+      margin-inline: auto;
+    }
+
+    .sign-up {
+        position: static;
+        width: 100%;
+        inset: 0;
+        min-height: 3.8rem;
+    }
+
+}
+
+@media screen and (max-width:50rem) {
+    .cart-data{
+        justify-content:  space-around;
+    }
+    .cart-price{
+        padding-block: 1rem;
+    }
+    .Header-main {
+        text-align: center;
+    }
+
+    .left-content {
+        padding-top: 2rem;
+    }
+
+    .proof-logo {
+        justify-content: center;
+    }
+
+    .nav {
+        padding-inline: 1.6rem;
+        margin-inline: .75rem;
+        top: .75rem;
+    }
+
+    .left-nav {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        background: #f9f2f0;
+        flex-direction: column;
+        height: 100%;
+        padding: 6.4rem 3.2rem;
+        font-size: 3rem;
+        transform: translateX(-110%);
+        transition: transform 500ms ease-in-out;
+    }
+
+    .open-nav {
+        transform: translateX(0%);
+    }
+
+    .middle-nav {
+        margin-right: auto;
+        margin-left: 1.6rem;
+    }
+
+    .logo>img {
+        width: 6rem;
+    }
+
+    .bars,
+    .close {
+        display: block;
+    }
+
+    .close {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .order {
+        width: 100%;
+        inset: 0rem;
+        border-radius: 0rem;
+    }
+.order-title,.total-checkout{
+    border-bottom-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
+    .About-smry {
+        padding-inline: 1.6rem;
+        padding-block: 3.2rem;
+    }
+
+    .smry-col {
+        width: 100%;
+    }
+
+    .product-section {
+        padding-block: 4.8rem;
+        padding-inline: 2rem;
+        gap: 3.2rem;
+    }
+
+    .service-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .oil-nav-section {
+        grid-template-columns: 1fr;
+    }
+
+    .product {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+
+    .process {
+        flex-direction: column;
+        gap: 0;
+        padding: 3.2rem 2rem;
+    }
+
+    .process-details>h1 {
+        padding-block: 3.2rem;
+    }
+
+    .process-details>img {
+        height: 30rem;
+    }
+
+    .article-img {
+        max-height: 40rem;
+    }
+
+    .article-text {
+        gap: 1rem;
+        margin-block: 1rem;
+    }
+
+    .dish-section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .dish-img,
+    .dish-text-col {
+        width: 100%;
+    }
+
+    .dish-text-col {
+        padding: 3.2rem 1rem;
+    }
+
+    .dish-text-shop {
+        width: 100%;
+    }
+
+    #form{
+        max-width: 90dvw;
+    }
+
+    .recipes-section {
+        gap: 3.2rem;
+    }
+
+    .recipe-container {
+        padding-inline: 2rem;
+    }
+
+    .social-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .social-img:nth-child(1) {
+        grid-column: 1/-1;
+        grid-row: span 1;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        padding: 4.8rem 2rem;
+        text-align: center;
+    }
+
+    .footer-nav>* {
+        width: 100%;
+    }
+
+    .left-footer {
+        gap: 3.2rem;
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin-bottom: 3.2rem;
+    }
+
+    .mid-footer {
+        margin-bottom: 3.2rem;
+        padding-right: 0;
+    }
+
+    .form {
+        flex-direction: column;
+        gap: 1rem;
+        position: static;
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .sign-up {
+        position: static;
+        width: 100%;
+        inset: 0;
+        min-height: 3.8rem;
+    }
+
+    .shop-section {
+        padding-inline: 2rem;
+    }
+.shop-home{
+    width: 100%;
+}
+    .right-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+
+    .footer-navlinks:nth-child(1) {
+        grid-column: 1/-1;
+    }
+}

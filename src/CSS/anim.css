@@ -1,0 +1,9 @@
+.animedorder-exit{
+    transform: translateX(0%);
+    transition: all .5s ease .5s,opacity .5s;
+    opacity: 1;
+}
+.animedorder-exit.animedorder-exit-active{
+    transform: translateX(120%);
+    opacity: .4;
+}
