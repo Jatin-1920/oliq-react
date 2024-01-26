@@ -25,7 +25,7 @@ function Nav(data) {
                     }}><FontAwesomeIcon icon={faShop}/>Shop</Link>
 </div>
 <div className="middle-nav">
-<Link to="/home" className="logo"><img src="https://assets.website-files.com/6461e47502e4c76cc75be681/6461f184a323efa26e5580f2_oliq_logo.svg"/></Link> 
+<Link to="/" className="logo"><img src="https://assets.website-files.com/6461e47502e4c76cc75be681/6461f184a323efa26e5580f2_oliq_logo.svg"/></Link> 
 </div>
 <div className="right-nav">
     <div className="cart">
