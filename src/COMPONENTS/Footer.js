@@ -33,7 +33,7 @@ function Footer () {
         </div>
         <div className="footer-nav">
           <div className="left-footer">
-          <Link to="/home"><img src="https://assets.website-files.com/6461e47502e4c76cc75be681/6461f184a323efa26e5580f2_oliq_logo.svg"/></Link> 
+          <Link to="/"><img src="https://assets.website-files.com/6461e47502e4c76cc75be681/6461f184a323efa26e5580f2_oliq_logo.svg"/></Link> 
           <div className="footer-social">
 <FaInstagram/>
 <FaFacebook/>
