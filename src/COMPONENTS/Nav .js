@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
 import {faCartShopping,faClose,faHomeAlt,faShop,faBars} from '@fortawesome/free-solid-svg-icons';
 import Order from "./Order";
 function Nav(data) {
