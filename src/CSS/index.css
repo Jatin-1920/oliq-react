@@ -127,6 +127,7 @@ width: 100%;
   background:var(--primry-clr);
   overflow-x: hidden;
   font-family:"Tilt Neon";
+  color: black;
 }
 
 .nav {
