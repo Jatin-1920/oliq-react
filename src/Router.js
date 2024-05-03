@@ -2,7 +2,7 @@ import React from "react";
 import{BrowserRouter as Main,Route,Routes} from "react-router-dom"
 import Home from "./COMPONENTS/Home";
 import Shop from "./COMPONENTS/Shop";
-import Nav from "./COMPONENTS/Nav ";
+import Nav from "./COMPONENTS/Nav";
 import AllOils from "./DATA/alloils";
 import Error from "./COMPONENTS/Error Page";
 class Routed extends React.Component{
